@@ -1,0 +1,202 @@
+[12:10:30] [ServerMain/INFO]: Building unoptimized datafixer
+[12:10:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:10:38] [ServerMain/INFO]: Loaded 7 recipes
+[12:10:42] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[12:10:42] [Server thread/INFO]: Loading properties
+[12:10:42] [Server thread/INFO]: This server is running Paper version git-Paper-135 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: eff22eb)
+[12:10:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:10:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:10:43] [Server thread/INFO]: Default game type: SURVIVAL
+[12:10:43] [Server thread/INFO]: Generating keypair
+[12:10:43] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:26164
+[12:10:43] [Server thread/INFO]: Using epoll channel type
+[12:10:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:10:43] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:10:44] [Server thread/ERROR]: Could not load 'plugins/PlayTime.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [PlaceholderAPI]. Please download and install these plugins to run 'PlayTime'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:287) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:423) ~[paper-1.19.2.jar:git-Paper-135]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.2.jar:git-Paper-135]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1126) ~[paper-1.19.2.jar:git-Paper-135]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[12:10:45] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:10:57] [Server thread/WARN]: Legacy plugin FarmProtect v1.9.0 does not specify an api-version.
+[12:10:57] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vBeta 1.3.9
+[12:10:57] [Server thread/INFO]: [SmallPets] Loading SmallPets vbeta-7.2
+[12:10:57] [Server thread/INFO]: 
+[12:10:57] [Server thread/INFO]:    ___   ____
+[12:10:57] [Server thread/INFO]:   |     |    |  SmallPets vbeta-7.2
+[12:10:57] [Server thread/INFO]:   |___  |____|  Made by SmallCode
+[12:10:57] [Server thread/INFO]:       | |
+[12:10:57] [Server thread/INFO]:    ___| |
+[12:10:57] [Server thread/INFO]: 
+[12:10:57] [Server thread/INFO]: ○◯  SmallPets ◆ Loading language en ...
+[12:10:57] [Server thread/INFO]: ○◯  SmallPets ◆ Language set to en.yml!
+[12:10:57] [Server thread/INFO]: ○◯  SmallPets ◆ Loading experience table...
+[12:10:57] [Server thread/INFO]: ○◯  SmallPets ◆ Experience table loaded!
+[12:10:57] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.4.2
+[12:10:57] [Server thread/INFO]: [ViaVersion] ViaVersion 4.4.2 is now loaded, injecting!
+[12:10:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[12:10:58] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[12:10:58] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[12:10:58] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[12:10:58] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[12:10:59] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[12:10:59] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[12:10:59] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[12:10:59] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[12:11:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[12:11:00] [Server thread/INFO]: [FarmProtect] Loading FarmProtect v1.9.0
+[12:11:00] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.2
+[12:11:00] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[12:11:00] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
+[12:11:00] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
+[12:11:00] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
+[12:11:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
+[12:11:01] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
+[12:11:01] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[12:11:01] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
+[12:11:01] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
+[12:11:01] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
+[12:11:01] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
+[12:11:02] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
+[12:11:02] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
+[12:11:02] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[12:11:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:11:02] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[12:11:02] [Server thread/INFO]: Preparing level "world"
+[12:11:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:11:22] [Server thread/INFO]: Time elapsed: 844 ms
+[12:11:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:11:23] [Server thread/INFO]: Time elapsed: 1116 ms
+[12:11:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:11:24] [Server thread/INFO]: Time elapsed: 375 ms
+[12:11:24] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.9
+[12:11:24] [Server thread/INFO]: [AureliumSkills] Loaded 186 config options in 2 ms
+[12:11:24] [Server thread/INFO]: [AureliumSkills] Loaded 303 sources and 10 tags in 91ms
+[12:11:25] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[12:11:26] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[12:11:30] [Server thread/INFO]: [AureliumSkills] Loaded 15 languages in 3896ms
+[12:11:30] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[12:11:31] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 5ms
+[12:11:32] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[12:11:32] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[12:11:32] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[12:11:32] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[12:11:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R1! Trying to find NMS support
+[12:11:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R1' loaded!
+[12:11:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[12:11:32] [Server thread/INFO]: [SmallPets] Enabling SmallPets vbeta-7.2
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Backup: Started process
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Loaded version 1_19_R1!
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Registering abilities...
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Registered abilities
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Registering pets...
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Registered pets
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Registering crafting recipes...
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Registered crafting recipes!
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Registering listeners...
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Registered listeners!
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Starting metrics...
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Metrics started!
+[12:11:32] [Server thread/INFO]: 
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ Consider joining the discord server for news and test versions!
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ You can join with this link: https://discordapp.com/invite/62wbxdg
+[12:11:32] [Server thread/INFO]: 
+[12:11:32] [Server thread/INFO]: ○◯  SmallPets ◆ One time donations are also appreciated: https://ko-fi.com/smallcode
+[12:11:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.4.2
+[12:11:32] [Server thread/INFO]: [FarmProtect] Enabling FarmProtect v1.9.0*
+[12:11:34] [Thread-8/INFO]: [FarmProtect] About to download a new update: FarmProtect v1.9.0
+[12:11:34] [Thread-8/INFO]: [FarmProtect] Downloading update: 60% of 42920 bytes.
+[12:11:34] [Thread-8/INFO]: [FarmProtect] Downloading update: 70% of 42920 bytes.
+[12:11:34] [Thread-8/INFO]: [FarmProtect] Downloading update: 100% of 42920 bytes.
+[12:11:34] [Thread-8/INFO]: [FarmProtect] Finished updating.
+[12:11:34] [Server thread/INFO]: [FarmProtect] Version 1.9.0 by jacklin213 has been Enabled!
+[12:11:34] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.2
+[12:11:35] [Server thread/INFO]: Running delayed init tasks
+[12:11:35] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.1/2 (760)
+[12:11:37] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[12:11:37] [Server thread/INFO]: Done (55.384s)! For help, type "help"
+[12:11:37] [Server thread/INFO]: Timings Reset
+[12:11:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@54a2792a[id=<null>,name=Pranav_13589,properties={},legacy=false] (/122.163.158.161:3725) lost connection: Disconnected
+[12:11:47] [User Authenticator #1/INFO]: UUID of player Pranav_13589 is c892b2c1-5e29-4ffa-8690-faacc6cf85cb
+[12:11:49] [Server thread/INFO]: Pranav_13589 joined the game
+[12:11:50] [Server thread/INFO]: Pranav_13589[/122.163.158.161:3752] logged in with entity id 100 at ([world]148.04006129631765, 167.0, 60.16249761361341)
+[12:11:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5039ms or 100 ticks behind
+[12:12:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5841ms or 116 ticks behind
+[12:16:02] [Server thread/INFO]: Pranav_13589 issued server command: /give Pranav_13589 minecraft:emerald 128
+[12:16:02] [Server thread/INFO]: [Pranav_13589: Gave 128 [Emerald] to Pranav_13589]
+[12:16:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5137ms or 102 ticks behind
+[12:18:10] [Server thread/INFO]: Pranav_13589 issued server command: /smallpets
+[12:20:41] [Server thread/INFO]: Pranav_13589 issued server command: /give Pranav_13589 minecraft:glass 4
+[12:20:41] [Server thread/INFO]: [Pranav_13589: Gave 4 [Glass] to Pranav_13589]
+[12:21:05] [Server thread/INFO]: Pranav_13589 issued server command: /give Pranav_13589 minecraft:jungle_door
+[12:21:05] [Server thread/INFO]: [Pranav_13589: Gave 1 [Jungle Door] to Pranav_13589]
+[12:23:06] [Server thread/INFO]: Pranav_13589 issued server command: /smallpets
+[12:51:45] [Server thread/INFO]: Pranav_13589 issued server command: /give @a minecraft:shears
+[12:51:45] [Server thread/INFO]: [Pranav_13589: Gave 1 [Shears] to Pranav_13589]
+[12:54:49] [Server thread/INFO]: Pranav_13589 issued server command: /give Pranav_13589 minecraft:black_wool 64
+[12:54:49] [Server thread/INFO]: [Pranav_13589: Gave 64 [Black Wool] to Pranav_13589]
+[12:54:52] [Server thread/INFO]: Pranav_13589 issued server command: /give Pranav_13589 minecraft:black_wool 9
+[12:54:52] [Server thread/INFO]: [Pranav_13589: Gave 9 [Black Wool] to Pranav_13589]
+[12:55:01] [Server thread/INFO]: Pranav_13589 issued server command: /gamemode creative
+[12:55:01] [Server thread/INFO]: [Pranav_13589: Set own game mode to Creative Mode]
+[12:55:19] [Server thread/INFO]: Pranav_13589 issued server command: /gamemode survival
+[12:55:19] [Server thread/INFO]: [Pranav_13589: Set own game mode to Survival Mode]
+[12:55:36] [Server thread/INFO]: Pranav_13589 issued server command: /give Pranav_13589 minecraft:shulker_box
+[12:55:36] [Server thread/INFO]: [Pranav_13589: Gave 1 [Shulker Box] to Pranav_13589]
+[12:56:24] [Server thread/INFO]: Pranav_13589 issued server command: /give Pranav_13589 minecraft:white_bed 4
+[12:56:24] [Server thread/INFO]: [Pranav_13589: Gave 4 [White Bed] to Pranav_13589]
+[12:57:13] [Server thread/INFO]: Pranav_13589 lost connection: Disconnected
+[12:57:13] [Server thread/INFO]: Pranav_13589 left the game
+[13:11:51] [Craft Scheduler Thread - 61 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Starting save...
+[13:11:51] [Craft Scheduler Thread - 61 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Finished saving!
+[13:11:51] [Craft Scheduler Thread - 61 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleting old files...
+[13:11:51] [Craft Scheduler Thread - 61 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleted old files!
+[14:11:51] [Craft Scheduler Thread - 80 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Starting save...
+[14:11:51] [Craft Scheduler Thread - 80 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Finished saving!
+[14:11:51] [Craft Scheduler Thread - 80 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleting old files...
+[14:11:51] [Craft Scheduler Thread - 80 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleted old files!
+[15:11:51] [Craft Scheduler Thread - 99 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Starting save...
+[15:11:51] [Craft Scheduler Thread - 99 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Finished saving!
+[15:11:51] [Craft Scheduler Thread - 99 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleting old files...
+[15:11:51] [Craft Scheduler Thread - 99 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleted old files!
+[16:11:51] [Craft Scheduler Thread - 118 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Starting save...
+[16:11:51] [Craft Scheduler Thread - 118 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Finished saving!
+[16:11:51] [Craft Scheduler Thread - 118 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleting old files...
+[16:11:51] [Craft Scheduler Thread - 118 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleted old files!
+[17:11:51] [Craft Scheduler Thread - 137 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Starting save...
+[17:11:51] [Craft Scheduler Thread - 137 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Finished saving!
+[17:11:51] [Craft Scheduler Thread - 137 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleting old files...
+[17:11:51] [Craft Scheduler Thread - 137 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleted old files!
+[18:11:51] [Craft Scheduler Thread - 156 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Starting save...
+[18:11:51] [Craft Scheduler Thread - 156 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Finished saving!
+[18:11:51] [Craft Scheduler Thread - 156 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleting old files...
+[18:11:51] [Craft Scheduler Thread - 156 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleted old files!
+[19:11:51] [Craft Scheduler Thread - 175 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Starting save...
+[19:11:51] [Craft Scheduler Thread - 175 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Finished saving!
+[19:11:51] [Craft Scheduler Thread - 175 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleting old files...
+[19:11:51] [Craft Scheduler Thread - 175 - SmallPets/INFO]: ○◯  SmallPets ◆ Backup: Deleted old files!
+[19:41:02] [Server thread/INFO]: Stopping the server
+[19:41:02] [Server thread/INFO]: Stopping server
+[19:41:02] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.2
+[19:41:02] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.4.2
+[19:41:02] [Server thread/INFO]: [FarmProtect] Disabling FarmProtect v1.9.0
+[19:41:02] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.4.2
+[19:41:02] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[19:41:02] [Server thread/INFO]: [SmallPets] Disabling SmallPets vbeta-7.2
+[19:41:02] [Server thread/INFO]: ○◯  SmallPets ◆ Backup: Stopped process
+[19:41:02] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.9
+[19:41:02] [Server thread/INFO]: Saving players
+[19:41:02] [Server thread/INFO]: Saving worlds
+[19:41:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:41:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:41:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:41:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:41:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:41:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:41:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:41:09] [Server thread/INFO]: Flushing Chunk IO
+[19:41:09] [Server thread/INFO]: Closing Thread Pool
+[19:41:09] [Server thread/INFO]: Closing Server
